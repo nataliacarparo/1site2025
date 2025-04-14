@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Site de Música</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      background-color: white;
+      color: black;
+      transition: 0.3s;
+    }
+
+    .dark-mode {
+      background-color: #121212;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+    }
+
+    .controls {
+      text-align: center;
+      margin: 20px;
+    }
+
+    button {
+      margin: 5px;
+      padding: 10px;
+      font-size: 16px;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bem-vindo ao Mundo da Música</h1>
+    <div class="controls">
+      <button onclick="aumentarFonte()">A+</button>
+      <button onclick="diminuirFonte()">A-</button>
+      <button onclick="alternarContraste()">Contraste</button>
+    </div>
+  </header>
+
+  <div class="content">
+    <p>A música é uma forma de arte que acompanha a humanidade desde os tempos antigos. Aqui você encontra curiosidades, imagens e histórias musicais.</p>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Music-icon.svg/800px-Music-icon.svg.png" alt="Ícone de música representando uma nota musical" />
+
+    <p>A diversidade de estilos musicais é impressionante: do clássico ao pop, do jazz ao rock
